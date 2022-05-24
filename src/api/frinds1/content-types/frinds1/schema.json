@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "frinds1s",
+  "info": {
+    "singularName": "frinds1",
+    "pluralName": "frinds1s",
+    "displayName": "Frinds1"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "number": {
+      "required": true,
+      "type": "integer"
+    }
+  }
+}

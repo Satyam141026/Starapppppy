@@ -1,0 +1,24 @@
+{
+  "kind": "singleType",
+  "collectionName": "frinds",
+  "info": {
+    "singularName": "frind",
+    "pluralName": "frinds",
+    "displayName": "Frinds"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "Pswd": {
+      "type": "password",
+      "required": true,
+      "minLength": 3
+    }
+  }
+}
